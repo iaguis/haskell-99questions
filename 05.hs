@@ -1,3 +1,5 @@
+-- (*) Reverse a list.
+
 reverse' :: [a] -> [a]
 reverse' = foldl (flip (:)) []
 

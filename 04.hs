@@ -1,3 +1,5 @@
+-- (*) Find the number of elements of a list.
+
 myLength :: [a] -> Int
 myLength = foldl (\n _ -> n + 1) 0
 
